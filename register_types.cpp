@@ -32,10 +32,10 @@
 #include "scene/resources/surface_tool.h"
 #include "geometry3_process.h"
 
+
+
 void register_tri_types() {
-	SurfaceTool::process_geometry_func = g3::geometry3_process;
 }
 
 void unregister_tri_types() {
-	SurfaceTool::process_geometry_func = nullptr;
 }

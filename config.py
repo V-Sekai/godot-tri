@@ -1,5 +1,5 @@
 def can_build(env, platform):    
-    return False and env["tools"] and not env["disable_3d"]
+    return env["tools"] and not env["disable_3d"]
 
 
 
