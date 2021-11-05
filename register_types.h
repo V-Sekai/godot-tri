@@ -31,7 +31,7 @@
 #ifndef GEOMETRY3_REGISTER_TYPES_H
 #define GEOMETRY3_REGISTER_TYPES_H
 
-void register_geometry3_types();
-void unregister_geometry3_types();
+void register_tri_types();
+void unregister_tri_types();
 
 #endif // PVR_REGISTER_TYPES_H
